@@ -1,0 +1,12 @@
+Metric,Value
+"Total timestamps (rows, after reindex)","7,888"
+Original data points (non-NaN),"7,267"
+Added timestamps (missing hours),621
+Time coverage (days),328.62
+Start timestamp,2013-07-04 00:00
+End timestamp,2014-05-28 15:00
+Nominal sampling interval,1.00 hours
+Regular cadence fraction,100.00 %
+"Missing values (NaN, inserted gaps)",621 (7.87%)
+Detected temperature unit,Fahrenheit (inferred from range)
+Converted to Celsius,Yes
