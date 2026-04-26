@@ -1,0 +1,13 @@
+Metric,Value
+Raw rows,"7,267"
+Hourly rows after reindex,"7,888"
+Observed rows after reindex,"7,267"
+Inserted missing hours,621
+Missing fraction,7.87%
+Start timestamp,2013-07-04 00:00
+End timestamp,2014-05-28 15:00
+Temperature unit handling,Fahrenheit converted to Celsius
+Evaluation mask,observed rows only
+NAB anomaly windows,2
+Positive labels in evaluation mask,726
+Positive rate in evaluation mask,9.99%
