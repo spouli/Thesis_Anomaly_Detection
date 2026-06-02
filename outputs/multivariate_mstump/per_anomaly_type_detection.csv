@@ -1,0 +1,5 @@
+anomaly_type,number_of_events,detected_by_univariate_max,detected_by_mstump_2d,detected_by_mstump_3d
+correlation_breaking_anomaly,3,0.6666666666666666,0.0,0.3333333333333333
+multisensor_system_anomaly,3,0.0,0.6666666666666666,0.3333333333333333
+single_sensor_level_shift,4,0.25,0.0,0.0
+single_sensor_spike,20,0.0,0.1,0.0

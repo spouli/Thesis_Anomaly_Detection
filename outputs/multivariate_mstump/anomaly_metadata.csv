@@ -1,0 +1,31 @@
+anomaly_id,type,affected_sensor_or_relationship,start_time,end_time,start_idx,end_idx,duration_minutes,description
+A1_03,single_sensor_spike,humidity,2024-01-01 16:23:00,2024-01-01 16:23:00,983,983,1,Humidity one-minute spike of +20.35 percentage points.
+A1_13,single_sensor_spike,temperature,2024-01-01 22:25:00,2024-01-01 22:25:00,1345,1345,1,Temperature one-minute spike of -7.67 deg C.
+A2_01,single_sensor_level_shift,humidity,2024-01-02 07:36:00,2024-01-02 17:35:00,1896,2495,600,Humidity level shift of -19.43 percentage points.
+A1_08,single_sensor_spike,humidity,2024-01-03 03:27:00,2024-01-03 03:27:00,3087,3087,1,Humidity one-minute spike of -18.42 percentage points.
+A1_11,single_sensor_spike,power_consumption,2024-01-03 07:34:00,2024-01-03 07:34:00,3334,3334,1,Power one-minute increase of 28%.
+A1_19,single_sensor_spike,temperature,2024-01-03 18:30:00,2024-01-03 18:30:00,3990,3990,1,Temperature one-minute spike of -7.70 deg C.
+A2_04,single_sensor_level_shift,temperature,2024-01-03 21:07:00,2024-01-04 14:12:00,4147,5172,1026,Temperature level shift of +3.13 deg C.
+A1_18,single_sensor_spike,temperature,2024-01-04 16:36:00,2024-01-04 16:36:00,5316,5316,1,Temperature one-minute spike of -6.33 deg C.
+A1_14,single_sensor_spike,humidity,2024-01-04 23:19:00,2024-01-04 23:19:00,5719,5719,1,Humidity one-minute spike of -15.93 percentage points.
+A3_02,multisensor_system_anomaly,temperature_humidity_power,2024-01-05 01:28:00,2024-01-05 11:28:00,5848,6448,601,"System-load anomaly: temperature increases, humidity decreases, and power consumption increases."
+A1_17,single_sensor_spike,humidity,2024-01-05 17:09:00,2024-01-05 17:09:00,6789,6789,1,Humidity one-minute spike of +23.51 percentage points.
+A4_03,correlation_breaking_anomaly,humidity_temperature_relationship,2024-01-05 21:13:00,2024-01-06 16:06:00,7033,8166,1134,Humidity becomes nearly flat while temperature continues its normal cycle.
+A1_02,single_sensor_spike,humidity,2024-01-06 23:48:00,2024-01-06 23:48:00,8628,8628,1,Humidity one-minute spike of -24.52 percentage points.
+A3_01,multisensor_system_anomaly,temperature_humidity_power,2024-01-07 02:47:00,2024-01-07 12:09:00,8807,9369,563,"System-load anomaly: temperature increases, humidity decreases, and power consumption increases."
+A1_04,single_sensor_spike,power_consumption,2024-01-07 14:38:00,2024-01-07 14:38:00,9518,9518,1,Power one-minute drop of 49%.
+A1_12,single_sensor_spike,humidity,2024-01-08 00:07:00,2024-01-08 00:07:00,10087,10087,1,Humidity one-minute spike of -20.05 percentage points.
+A2_02,single_sensor_level_shift,power_consumption,2024-01-08 04:37:00,2024-01-08 19:59:00,10357,11279,923,Power level shift of +23%.
+A1_07,single_sensor_spike,temperature,2024-01-09 01:11:00,2024-01-09 01:11:00,11591,11591,1,Temperature one-minute spike of -9.04 deg C.
+A1_10,single_sensor_spike,temperature,2024-01-09 08:10:00,2024-01-09 08:10:00,12010,12010,1,Temperature one-minute spike of -7.80 deg C.
+A1_20,single_sensor_spike,temperature,2024-01-09 19:50:00,2024-01-09 19:50:00,12710,12710,1,Temperature one-minute spike of +6.61 deg C.
+A1_16,single_sensor_spike,power_consumption,2024-01-10 05:00:00,2024-01-10 05:00:00,13260,13260,1,Power one-minute increase of 27%.
+A1_15,single_sensor_spike,power_consumption,2024-01-10 13:25:00,2024-01-10 13:25:00,13765,13765,1,Power one-minute increase of 27%.
+A3_03,multisensor_system_anomaly,temperature_humidity_power,2024-01-10 15:26:00,2024-01-10 23:07:00,13886,14347,462,"System-load anomaly: temperature increases, humidity decreases, and power consumption increases."
+A4_02,correlation_breaking_anomaly,humidity_temperature_relationship,2024-01-11 01:51:00,2024-01-11 14:00:00,14511,15240,730,Humidity follows the wrong direction relative to temperature.
+A4_01,correlation_breaking_anomaly,power_temperature_load_relationship,2024-01-11 20:02:00,2024-01-12 04:04:00,15602,16084,483,Power consumption becomes decoupled from expected temperature and load behavior.
+A1_09,single_sensor_spike,temperature,2024-01-12 11:39:00,2024-01-12 11:39:00,16539,16539,1,Temperature one-minute spike of -8.20 deg C.
+A2_03,single_sensor_level_shift,temperature,2024-01-12 14:14:00,2024-01-13 01:06:00,16694,17346,653,Temperature level shift of +2.96 deg C.
+A1_01,single_sensor_spike,power_consumption,2024-01-13 03:13:00,2024-01-13 03:13:00,17473,17473,1,Power one-minute drop of 25%.
+A1_06,single_sensor_spike,humidity,2024-01-13 15:02:00,2024-01-13 15:02:00,18182,18182,1,Humidity one-minute spike of +15.34 percentage points.
+A1_05,single_sensor_spike,power_consumption,2024-01-14 08:52:00,2024-01-14 08:52:00,19252,19252,1,Power one-minute increase of 49%.
